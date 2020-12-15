@@ -2,6 +2,7 @@ package service
 
 import (
 	"fmt"
+	"github.com/godaner/goerrordemo/code"
 	ERROR "github.com/godaner/goerrordemo/error"
 	"testing"
 )
@@ -21,7 +22,10 @@ func TestService_F1(t *testing.T) {
 			default:
 				fmt.Println("no error")
 			}
+			continue
 		}
+		// no error
+		fmt.Println(code.CodeSuccess)
 	}
 
 }
