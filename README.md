@@ -1,0 +1,2 @@
+# goerrordemo
+go error demo
